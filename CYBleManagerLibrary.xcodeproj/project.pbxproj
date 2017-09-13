@@ -18,8 +18,8 @@
 		4FB9F93E1F6903C900DD80AE /* CYBleScanning.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB9F9311F6903C900DD80AE /* CYBleScanning.h */; };
 		4FB9F93F1F6903C900DD80AE /* CYBleScanning.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9F9321F6903C900DD80AE /* CYBleScanning.m */; };
 		4FB9F9401F6903C900DD80AE /* CYBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB9F9331F6903C900DD80AE /* CYBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FB9F9411F6903C900DD80AE /* iOSDFULibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB9F9341F6903C900DD80AE /* iOSDFULibrary.framework */; };
-		4FB9F9421F6903C900DD80AE /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB9F9351F6903C900DD80AE /* Zip.framework */; };
+		4FFB01461F69220000C0FF87 /* iOSDFULibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFB01441F69220000C0FF87 /* iOSDFULibrary.framework */; };
+		4FFB01471F69220000C0FF87 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFB01451F69220000C0FF87 /* Zip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,8 @@
 		4FB9F9311F6903C900DD80AE /* CYBleScanning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBleScanning.h; sourceTree = "<group>"; };
 		4FB9F9321F6903C900DD80AE /* CYBleScanning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBleScanning.m; sourceTree = "<group>"; };
 		4FB9F9331F6903C900DD80AE /* CYBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBlock.h; sourceTree = "<group>"; };
-		4FB9F9341F6903C900DD80AE /* iOSDFULibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOSDFULibrary.framework; sourceTree = "<group>"; };
-		4FB9F9351F6903C900DD80AE /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Zip.framework; sourceTree = "<group>"; };
+		4FFB01441F69220000C0FF87 /* iOSDFULibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOSDFULibrary.framework; sourceTree = "<group>"; };
+		4FFB01451F69220000C0FF87 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Zip.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB9F9421F6903C900DD80AE /* Zip.framework in Frameworks */,
-				4FB9F9411F6903C900DD80AE /* iOSDFULibrary.framework in Frameworks */,
+				4FFB01471F69220000C0FF87 /* Zip.framework in Frameworks */,
+				4FFB01461F69220000C0FF87 /* iOSDFULibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +92,8 @@
 				4FB9F9311F6903C900DD80AE /* CYBleScanning.h */,
 				4FB9F9321F6903C900DD80AE /* CYBleScanning.m */,
 				4FB9F9331F6903C900DD80AE /* CYBlock.h */,
-				4FB9F9341F6903C900DD80AE /* iOSDFULibrary.framework */,
-				4FB9F9351F6903C900DD80AE /* Zip.framework */,
+				4FFB01441F69220000C0FF87 /* iOSDFULibrary.framework */,
+				4FFB01451F69220000C0FF87 /* Zip.framework */,
 			);
 			path = CYBleManager;
 			sourceTree = "<group>";
