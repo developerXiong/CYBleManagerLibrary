@@ -1,0 +1,6 @@
+framework module CYBleManager {
+  umbrella header "CYBleManager.h"
+
+  export *
+  module * { export * }
+}
